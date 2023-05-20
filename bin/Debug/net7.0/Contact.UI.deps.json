@@ -1,0 +1,50 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v7.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v7.0": {
+      "Contact.UI/1.0.0": {
+        "dependencies": {
+          "Contact.Data": "1.0.0",
+          "Contact.Repository": "1.0.0"
+        },
+        "runtime": {
+          "Contact.UI.dll": {}
+        }
+      },
+      "Contact.Data/1.0.0": {
+        "runtime": {
+          "Contact.Data.dll": {}
+        }
+      },
+      "Contact.Repository/1.0.0": {
+        "dependencies": {
+          "Contact.Data": "1.0.0"
+        },
+        "runtime": {
+          "Contact.Repository.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Contact.UI/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Contact.Data/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Contact.Repository/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

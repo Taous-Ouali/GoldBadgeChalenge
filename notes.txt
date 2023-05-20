@@ -1,0 +1,52 @@
+//
+//
+Dictionary<int,Contact> contactDic = new Dictionary<int, Contact>();
+
+contactDic.Add(1, new Contact
+{
+    ID = 1,
+    Name = "Jaiden",
+    Address = "ashby Avenue",
+    Email = "colton1@gmail.com",
+    PhoneNumber = "4151111111",
+});
+
+contactDic.Add(2, new Contact
+{
+    ID = 2,
+    Name = "Luca",
+    Address = "Alcatraz Ave",
+    Email = "luca1@gmail.com",
+    PhoneNumber = "2222222222",
+});
+
+contactDic.Add(3, new Contact
+{
+    ID = 3,
+    Name = "Sofia",
+    Address = "2nd avenue",
+    Email = "sofia1@gmail.com",
+    PhoneNumber = "3333333333",
+});
+
+contactDic.Add(4, new Contact
+{
+    ID = 4,
+    Name = "Emily",
+    Address = "11th Avenue",
+    Email = "emily1@gmail.com",
+    PhoneNumber = "4151111222",
+});
+
+// let's count by using .count
+
+System.Console.WriteLine(contactDic.count());
+
+// seeing the data by constraining the keys  
+
+foreach (int contactKey in contactDic.Keys)
+{
+    System.Console.WriteLine($"{contactkey}");
+}
+
+
